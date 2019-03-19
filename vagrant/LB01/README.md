@@ -4,7 +4,16 @@ Im ersten Schritt wird die gesmate LB01 erleutert und gezeigt. in welcher es dar
 
 Um dies zu bewerkstelligen, sind ein paar Programme nötig. Es wurden vagrant installiert, eine Software um automatisiert VMs zu starten. Dazu wurden die Virtualisierungs Software VirtualBox von Oracle installiert, um die benötigten MVs laufen zu lassen.
 
-Um eine VM via Vagrant zu starten ist ein Vagrant File nötig, indem alle Konfigurationen angegeben sind. Dieses so genannte vagrantfile ist [hier](myserver/vagrantfile) zu finden.
+Um eine VM via Vagrant zu starten ist ein Vagrant File nötig, indem alle Konfigurationen angegeben sind. Dieses sogenannte vagrantfile ist hier zu finden. --> [vagrantfile](myserver/vagrantfile) zu finden.
 
-Da dies nur die Installation der VM beinhaltet müssen danach noch alle Befehle definiert werden, die die VM nach der Installation ausführen soll. Dazu wurde im vagrantfile das config.sh File angegeben, welches diesen Inhalt beherbergt. Dies finden sie [hier](myserver/config.sh).
+Da dies nur die Installation der VM beinhaltet müssen danach noch alle Befehle definiert werden, die die VM nach der Installation ausführen soll. Dazu wurde im vagrantfile das config.sh File angegeben, welches diesen Inhalt beherbergt. Dies finden sie hier. --> [config.sh](myserver/config.sh).
 
+Da mehrere Files bearbeitet wurden, war es am einfachsten einen Sharefolder zu erstellen, in dem sich die bereits bearbeiteten Files befanden, und dann nur noch kopiert werden mussten. Im Sharedfolder befand sich ein php.ini und ein ido-mysql.conf, welche wichtige Einstellungen mit sich brachten. Den Inhalt des Sharefolders finden sie hier. --> [Sharefolder](share/).
+
+Das ido-mysql.conf File. In diesem File werden die Angaben für die mySQL Datenbank icinga2_db gemacht, die für die Ablage der Daten verantwortlich ist.
+
+![ido-mysql.conf](images/ido-mysql.png)
+
+Ein Sharedfolder kann mit folgender Linie im vagrantfile definiert werden.
+
+![sharefolder](images/sharefolder.png)
