@@ -17,6 +17,10 @@
     # Memorygrösse der VM
      vb.memory = "512"
 end
+
+    # Hostname des Servers definieren
+  config.vm.hostname = "icinga2server"
+
    # Angabe Speicherort des Files indem die Auszuführenden Befehle sind.
    config.vm.provision :shell, path: "config.sh"
 end
