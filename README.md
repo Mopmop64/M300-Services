@@ -7,3 +7,4 @@ In der ersten LB habe ich mich mit dem automatisierten bereitstellen von Servern
 
 ## Inhalt
 - [LB01](vagrant/LB01)
+- [LB02](vagrant/LB02)
