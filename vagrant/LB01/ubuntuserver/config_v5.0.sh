@@ -1,5 +1,8 @@
 #Code des config.sh Files
 
+  # Auf den root wechseln
+#sudo su
+
   # ubuntu update und upgrade
 sudo apt-get update
 sudo apt-get -y upgrade
@@ -80,26 +83,26 @@ sudo icingacli setup token create
 
   # Aufgrund eines bekannten Fehlers mit icingaweb2 und PHP 7.2 muss auf PHP 7.1 gedowngraded werden.
 # Ein weiteres Repository hinzufügen
-#sudo add-apt-repository ppa:ondrej/php
+sudo add-apt-repository -y ppa:ondrej/php
 
 # Die Pakagebase erneut upgraden
-#sudo apt update
+sudo apt update
 
 # PHP 7.1 installalieren
-#sudo apt -y install php7.1
+sudo apt -y install php7.1
 
 # Alle weiteren PHP 7.1 Module installieren
-#sudo apt -y install php7.1-cli php7.1-common php7.1-json php7.1-opcache php7.1-mysql php7.1-mbstring php7.1-mcrypt php7.1-zip
+sudo apt install php7.1-cli php7.1-common php7.1-json php7.1-opcache php7.1-mysql php7.1-mbstring php7.1-mcrypt php7.1-zip
 
 # php.ini File wird kopiert
-#cp /etc/share/php.ini /etc/php/7.1/apache2/php.ini -f
+sudo cp /etc/share/php.ini /etc/php/7.1/apache2/php.ini
 
 # Nun muss PHP 7.2 noch deaktiviert und PHP 7.1 aktiviert werden.
-#sudo a2dismod php7.2
-#sudo a2enmod php7.1
+sudo a2dismod php7.2
+sudo a2enmod php7.1
 
 # apache2 Service neu starten
-#sudo systemctl restart apache2
+sudo systemctl restart apache2
 
 
 # end
