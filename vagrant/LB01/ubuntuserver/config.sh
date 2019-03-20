@@ -51,52 +51,55 @@ sudo apt-get update
 
 # Die debconf angaben auf 'yes' und 'no' stellen.
 # In der ersten Abfrage werden wir gefragt, ob wir das ido-mysql Feature enablen wollen, was wir wollen.
-sudo debconf-set-selections <<< 'true'
+sudo debconf-set-selections <<< icinga2-ido-mysql/enable 'true'
 # Im zweiten Schritt werden wir gefragt, ob wir jetzt automatisch Datenbanken aufsetzten wollen, was nich wollen, da wir bereits manuell Datenbanken aufgesetzt haben.
-sudo debconf-set-selections <<< 'false'
+sudo debconf-set-selections <<< dbconfig-common/dbconfig-install 'false'
 
 # Alle benötigten Icinga2 Pakete installieren.
 # Dazu gehören der Service Icinga2, das Webgui Icingaweb2 und die mySQL Tools icinga2-ido-mysql.
 sudo apt-get -y install icinga2 icingaweb2 icinga2-ido-mysql
 
 # Nun müssen die ido-mysql features noch aktiviert werden.
-sudo icinga2 feature enable command ido-mysql
+#sudo icinga2 feature enable command ido-mysql
 
 # Danach den icinga2 Service einmal neu starten.
-sudo systemctl restart icinga2
+#sudo systemctl restart icinga2
 
 # In der icinga2_db werden Einträge generieren
-mysql -u root icinga2_db -p password < /usr/share/icinga2-ido-mysql/schema/mysql.sql
+#mysql -u root icinga2_db -p password < /usr/share/icinga2-ido-mysql/schema/mysql.sql
 
 # Das im share folder abgelegte ido-mysql file kopieren. Da essenzielle Änderungen vorgenommen werden müssen
-cp /etc/share/ido-mysql.conf /etc/icinga2/features-enable/ido-mysql.conf -f
+#cp /etc/share/ido-mysql.conf /etc/icinga2/features-enable/ido-mysql.conf -f
 
 # Den Icinga2 Service erneut neu starten
-sudo systemctl restart icinga2
+#sudo systemctl restart icinga2
 
 # Ganz zum Schluss wird noch ein Token erstellt, welches benötigt wird um das Webgui zu initialisieren.
-sudo icingacli setup token create
+#sudo icingacli setup token create
 
 
   # Aufgrund eines bekannten Fehlers mit icingaweb2 und PHP 7.2 muss auf PHP 7.1 gedowngraded werden.
 # Ein weiteres Repository hinzufügen
-sudo add-apt-repository ppa:ondrej/php
+#sudo add-apt-repository ppa:ondrej/php
 
 # Die Pakagebase erneut upgraden
-sudo apt update
+#sudo apt update
 
 # PHP 7.1 installalieren
-sudo apt -y install php7.1
+#sudo apt -y install php7.1
 
 # Alle weiteren PHP 7.1 Module installieren
-sudo apt -y install php7.1-cli php7.1-common php7.1-json php7.1-opcache php7.1-mysql php7.1-mbstring php7.1-mcrypt php7.1-zip
+#sudo apt -y install php7.1-cli php7.1-common php7.1-json php7.1-opcache php7.1-mysql php7.1-mbstring php7.1-mcrypt php7.1-zip
 
 # php.ini File wird kopiert
-cp /etc/share/php.ini /etc/php/7.1/apache2/php.ini -f
+#cp /etc/share/php.ini /etc/php/7.1/apache2/php.ini -f
 
 # Nun muss PHP 7.2 noch deaktiviert und PHP 7.1 aktiviert werden.
-sudo a2dismod php7.2
-sudo a2enmod php7.1
+#sudo a2dismod php7.2
+#sudo a2enmod php7.1
 
 # apache2 Service neu starten
-sudo systemctl restart apache2
+#sudo systemctl restart apache2
+
+
+# end
