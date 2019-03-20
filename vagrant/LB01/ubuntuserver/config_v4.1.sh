@@ -68,14 +68,14 @@ sudo systemctl restart icinga2
 # In der icinga2_db Datenbank werden Einträge generieren
 mysql -uroot icinga2_db -ppassword < /usr/share/icinga2-ido-mysql/schema/mysql.sql
 
-# Das im share folder abgelegte ido-mysql file kopieren. Da essenzielle Änderungen vorgenommen werden müssen
-#cp -f /etc/share/ido-mysql.conf /etc/icinga2/features-enable/ido-mysql.conf
+# Das im share folder abgelegte ido-mysql file kopieren. Da essenzielle Änderungen vorgenommen werden müssen.
+sudo cp /etc/share/ido-mysql.conf /etc/icinga2/features-enabled/ido-mysql.conf
 
 # Den Icinga2 Service erneut neu starten
-#sudo systemctl restart icinga2
+sudo systemctl restart icinga2
 
 # Ganz zum Schluss wird noch ein Token erstellt, welches benötigt wird um das Webgui zu initialisieren.
-#sudo icingacli setup token create
+sudo icingacli setup token create
 
 
   # Aufgrund eines bekannten Fehlers mit icingaweb2 und PHP 7.2 muss auf PHP 7.1 gedowngraded werden.

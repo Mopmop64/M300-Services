@@ -13,7 +13,7 @@ Da dies nur die Installation der VM beinhaltet müssen danach noch alle Befehle 
 
 
 ## Sharefolder
-Da mehrere Files bearbeitet wurden, war es am einfachsten einen Sharefolder zu erstellen, in dem sich die bereits bearbeiteten Files befanden, und dann nur noch kopiert werden mussten. Im Sharedfolder befand sich ein php.ini und ein ido-mysql.conf, welche wichtige Einstellungen mit sich brachten. Den Inhalt des Sharefolders finden sie hier. --> [Sharefolder](share/).
+Da mehrere Files bearbeitet wurden, war es am einfachsten einen Sharefolder zu erstellen, in dem sich die bereits bearbeiteten Files befanden, und dann nur noch kopiert werden mussten. Im Sharedfolder befand sich ein php.ini und ein ido-mysql.conf, welche wichtige Einstellungen mit sich brachten. Den Inhalt des Sharefolders finden sie hier. --> [Sharefolder](share/)
 
 Ein Sharedfolder kann mit folgender Linie im vagrantfile definiert werden.
 
