@@ -27,4 +27,4 @@ sudo debconf-set-selections <<< 'icinga2-ido-mysql icinga2-ido-mysql/dbconfig-in
 Wichtig ist hier das der boolean Typ angegeben wird, da es sich um zwei Ja / Nein Fragen handelt.
 
 ## Finden der debconf Namen
-Um die genauen debconf Namen zu finden, rät es sich in den Files '/var/cache/debconf/config.dat' und '/var/cache/debconf/    change:   passwords.dat'. Das Problem daran ist nur dass sie dort erst ersichtlich sind nachdem das Paket installiert wurde. Es empfiehlt sich somit eine weitere VM vorzubereiten auf welcher man die gleichen Pakete installiert, und sich dann die debconf EIntrage rausschreibt.
+Um die genauen debconf Namen zu finden, rät es sich in den Files '/var/cache/debconf/config.dat' und '/var/cache/debconf/passwords.dat'. Das Problem daran ist nur dass sie dort erst ersichtlich sind nachdem das Paket installiert wurde. Es empfiehlt sich somit eine weitere VM vorzubereiten auf welcher man die gleichen Pakete installiert, und sich dann die debconf EIntrage rausschreibt.
