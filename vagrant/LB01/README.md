@@ -6,10 +6,10 @@ Im ersten Schritt wird die gesmate LB01 erleutert und gezeigt. in welcher es dar
 Um dies zu bewerkstelligen, sind ein paar Programme nötig. Es wurden vagrant installiert, eine Software um automatisiert VMs zu starten. Dazu wurden die Virtualisierungs Software VirtualBox von Oracle installiert, um die benötigten MVs laufen zu lassen.
 
 ## Vagrantfile
-Um eine VM via Vagrant zu starten ist ein Vagrant File nötig, indem alle Konfigurationen angegeben sind. Dieses sogenannte vagrantfile ist hier zu finden. --> [vagrantfile](myserver/vagrantfile)
+Um eine VM via Vagrant zu starten ist ein Vagrant File nötig, indem alle Konfigurationen angegeben sind. Dieses sogenannte vagrantfile ist hier zu finden. --> [vagrantfile](ubuntuserver/vagrantfile)
 
 ## Config.sh
-Da dies nur die Installation der VM beinhaltet müssen danach noch alle Befehle definiert werden, die die VM nach der Installation ausführen soll. Dazu wurde im vagrantfile das config.sh File angegeben, welches diesen Inhalt beherbergt. Dies finden sie hier. --> [config.sh](myserver/config.sh).
+Da dies nur die Installation der VM beinhaltet müssen danach noch alle Befehle definiert werden, die die VM nach der Installation ausführen soll. Dazu wurde im vagrantfile das config.sh File angegeben, welches diesen Inhalt beherbergt. Dies finden sie hier. --> [config.sh](ubuntuserver/config.sh).
 
 
 ## Sharefolder
