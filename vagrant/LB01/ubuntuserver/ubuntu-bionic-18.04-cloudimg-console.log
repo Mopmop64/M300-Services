@@ -1,249 +1,64 @@
-[   .0000] Lux vsion4.5.0-6-geeric (bilddlgw01-md64038) gcversio7.3.0 (Ubnt 7.30-6ubuu3))49-Uunu SMWed Fe 6 0:33: UTC209 (Uuntu 4.15.-46.-generc 4..18)
-[    0.00000 Command lne: BOT_IME=/bot/vinuz-415.046-gneri root=ABELclouimg-rotfs ro onsoe=tt1 consle=tyS
-    .00000] ERNE spporte cpu
-[  0.0000]  ntel GenineItel
-[    0.0000]  AMDAuhentAMD[   0.0000]  Cenaur enaurHuls[   0.000000 x86/f: Suprtin XSAE feaure 0x01: 87 fatin poit reisters
-[  0.00000x86/pu SuportingXSAV feare 002: SE regstrs'
-[   00000] x8/fpu Suporing SAVEfeatur 0004:'AVXregistrs'
-[   000000] x6/fp: xstateoffs[2]: 576,xsttesies[2:  26
-[   0.00000] x6/fp: Ebledxsate eatues 07, contextsie is83 byts, uin 'stndar' foma.
-[   000000] 820:BIOSprovidd physcal AM mp:
-[   0.00000]IOS-820:[mem 0000000000000-0x0000000009bff] uable
-[   000000] BIS-e80: [mm 0x000000009fc0-0x000000009fff] esrved
-[    0.00000 BOS-e20: mem 000000000f000-0x00000000ffff] reerve
-[   0.0000BIOS820:[mem0x00000000100000-x0000001ffeff] able
-    0.0000] BIS-820:[mem0x0000001ff000-0x0000001fffff]CPI ata
-[  0.0000] BIOSe80: [em 0x000000fec00000x00000000fec0fff]reseve
-[   0.0000] IOS-e80:[memx000000fee000-0x000000ee00ff resved
-[    0000] BIS-820 [me0x000000ffc000-0x0000000ffffff] reserved
-[    0.00000]X (Exeut Disbl) prtetion actve
-[   0.00000] SBIOS2.5 prsent.[   0.0000 DMIinnotek mbH rtuaBo/ViruaBox,BIS ViualBox2/01/206
-[  0.00000] Hpeviso detctd: KM[   0.0000] e80:lastpfn  01ff0max_rch_pn  0x400000
-[   0000000] TRR:Disale
-[   0.0000] 86/PT:MTRR disbld, sipinPAT itiazati too
-[    0000] CP MTRRsll bank  vrtualized ystem.
-[    0.0000] x8PAT: Cnfguraon [0-]: W  WT U- UC WB WT  - UC 
-[    .00000] fod SM M-tableat [em 0009ff0-00009fff]appeat [     (ptval)
-[   .0000] Sanin1 areafor lo memryorruion[   0.000] RMDSK: me 0x1c8000-x1f14fff
-[   0.0000] ACI: Erly tale cheksumverficaion isabed
-[   .0000] PI: SD0x000000000E00 00024(v2 VBX )
-[   0.00000]ACPIXSDT 0000001F0030 0003C(v01 VOX  VBXXSD 000001 AS  000061
-    .00000 API: ACP x00000001FFF0F0 000F(v04 VX   BOXFP 000000 ASL 000001)
-   0.00000 ACPI:DSDT0x0000001FFF470 001F (v0 VBO  BOXBOS 000002 NTL 01008)
-    0000] ACI: FCS 0x0000001FF020 000040
-[  0.00000]CPI: FCS 000000001FF020 00040[   0.0000] PI: APC 0x0000001FF0240 0005C (v2 VBOX   VBOXAPIC0000001 AS  00000)
-[  0.0000] API SDT0x000000FF02 000CC (v0 VBO  VBOXPUT 0000002 NTL 010028)[   .00000] No NMA configuration fond
-[  0.0000]Faki a nde at mem x000000000000-0x0000001ffefff]
-    000000 NOD_DAT(0) llocated [mem 0x1ffc5000-0xffefff]
-[   0.00000]kv-cck: pu0, mr :1ff4001, riary cp clok
-[  0.00000] vm-cock: Uing sr4b564d and4b64d0
-[   0.0000] m-cloc: usng sed ofst f 4891908 ycles
-[   0.0000] lockourc  kv-clok: msk: xfffffffffffff max_cycles:0x1c42e4dfb, ma_idl_ns:889059483 s
-[   0.0000] Zo range:
-[  0.0000]   MA   [me 0x00000000010000x0000000fffff
-[   .00000   D32   [me 0x000000100000-0x0000001fefff]
-[   0.00000]  Norml   mpty
-[   .00000]  Device   empty
-[    0.000000] Moablezoe stat fo eacnode
-[  0.00000 Eary memoy no  rages[   0.0000]  node  0: mem x0000000000010-0x00000000efff
-[   0.000000   node   0: [mm 0x0000000100000x000000001feffff
-[   0.00000] Reserved butunavailable: 114 pges
-[   0.0000] Intmemsetup ode  [mem x0000000000100-000000001fefff]
-[   0.00000 API: M-Tier I Por: 0x008
-[   0.00000] IOPIC[0] api_id , vesion32 adrss0xfec000, GS 023
-[   000000] API: NT_SC_OVR (bus 0bus_ir 0 gobalirq  dfldfl)
-[    0.000000] ACPI: IN_SRC_OR bus 0 us_iq 9 loba_irq9 lo levl)
-    0.0000 Usig ACI (MDT) or SP cofiguatio infrmaton
-[   0.00000]smpboot: Allowing 2 CPUs, 0 hotplug CPUs[    000000]PM: egierednoave emor: [m 0x000000-x000fff]
-[   0.00000] PM Regsterd nosave memoy: [mem 0x009f0000x0009ffff
-[   .00000] PM Regtere nosvemeory:[mm 0000a000x00efff]
-[   00000 PM: Rgistered noav memry:mem x00f000-0x00fffff
-[   0.00000 e82: me 0x200000-0xebffff] avalable for PI device
-[   .00000] ootig aravrtuazed rnel n KV
-[   0.00000] clocsource reinedjiffes: as: 0xffffff ma_cycle: 0xfffffff,ma_idl_ns:645596001156 ns
-[   0.00000]randm:get_ando_bytescall fro stat_kerne+0x9/0x4fd ith rng_ni=0
-    .00000] seup_prcpu: R_CPUS:812 nrcpumsk_bts:2 n_cpuids: nr_ode_ids:1
-[   0.00000 prcpu:Embeded 6 paes/cu @      (ptral) s15152 r8192d286 u10856
-[   .00000] PVqsinlok hah tae enries 256 (rder:0,4096 btes)
-[    000000]Built  zonists moblity grouping on.  Total pges: 1889
-[   0.00000] olicy one:DMA3
-[   0.0000] Kenel ommand lne: OOT_MAGE/boo/vmlinz-4.5.0--genri ro=LABL=loudmg-rotfso consle=tty conole=tyS0
-    000000]Memory 46708K/2383K avilable (2300K erel cde 2473Krwdaa, 452K odat, 40K int, 2416Kbss,5632K reerve, 0Kcm-resered)
-[   000000] SUB: HWlign=6, Order=0-3, MinObjects=0, CPUs=2, Nodes=1
-[    0.000000] Kernel/User page tables isolaion:enabed
-    00000] frace: alocatng39198 trie i 154 pages
-[    .004000 Hierachicl CUimplmentaton.
-[  0.00000] 	U retricing PUs rom NR_CPU=819 t nr_pu_is=.
-[   0.0400] asksRCU enbled
-[   0.00000]RCU:Adjuing eomeryfor cu_fnoutleaf16, r_cp_ids2
-[  0.0400] R_IRS: 524544,nr_iqs: 440,preallcatd irs: 16
-[   000000]Consle: olour GA+ 0x25
-[   0.04000 conole tt1] enaled
-[   0.0400]consle ttS0] enled[   0.00000] API: ore evison 217081
-[   0.00400] CP: 2 CPI ML tblesuccesfuly acired ad loed
-    0.004000] APIC: Switch to symmetric I/O mode setup
-[    0.004599] x2apic enabled
-[    0.008006] Switched APIC routing to physical x2apic.
-[    0.013813] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
-[    0.016005] tsc: Detected 2591.998 MHz processor
-[    0.020008] Calibrating delay loop (skipped) preset value.. 5183.99 BogoMIPS (lpj=10367992)
-[    0.024005] pid_max: default: 32768 minimum: 301
-[    0.028046] Security Framework initialized
-[    0.032005] Yama: becoming mindful.
-[    0.036032] AppArmor: AppArmor initialized
-[    0.040090] Dentry cache hash table entries: 65536 (order: 7, 524288 bytes)
-[    0.044044] Inode-cache hash table entries: 32768 (order: 6, 262144 bytes)
-[    0.048021] Mount-cache hash table entries: 1024 (order: 1, 8192 bytes)
-[    0.052012] Mountpoint-cache hash table entries: 1024 (order: 1, 8192 bytes)
-[    0.056241] mce: CPU supports 0 MCE banks
-[    0.060021] Last level iTLB entries: 4KB 64, 2MB 8, 4MB 8
-[    0.064005] Last level dTLB entries: 4KB 64, 2MB 0, 4MB 0, 1GB 4
-[    0.068005] Spectre V2 : Mitigation: Full generic retpoline
-[    0.072005] Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
-[    0.076006] Speculative Store Bypass: Vulnerable
-[    0.080153] Freeing SMP alternatives memory: 36K
-[    0.088000] smpboot: CPU0: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz (family: 0x6, model: 0x5e, stepping: 0x3)
-[    0.088096] Performance Events: unsupported p6 CPU model 94 no PMU driver, software events only.
-[    0.092131] Hierarchical SRCU implementation.
-[    0.096563] NMI watchdog: Perf event create on CPU 0 failed with -2
-[    0.100005] NMI watchdog: Perf NMI watchdog permanently disabled
-[    0.104083] smp: Bringing up secondary CPUs ...
-[    0.108143] x86: Booting SMP configuration:
-[    0.112006] .... node  #0, CPUs:      #1
-[    0.004000] kvm-clock: cpu 1, msr 0:1ff44041, secondary cpu clock
-[    0.004000] mce: CPU supports 0 MCE banks
-[    0.120023] smp: Brought up 1 node, 2 CPUs
-[    0.124008] smpboot: Max logical packages: 1
-[    0.128006] smpboot: Total of 2 processors activated (10367.99 BogoMIPS)
-[    0.136046] devtmpfs: initialized
-[    0.140060] x86/mm: Memory block size: 128MB
-[    0.144177] evm: security.selinux
-[    0.148005] evm: security.SMACK64
-[    0.152026] evm: security.SMACK64EXEC
-[    0.156006] evm: security.SMACK64TRANSMUTE
-[    0.160005] evm: security.SMACK64MMAP
-[    0.164005] evm: security.apparmor
-[    0.168004] evm: security.ima
-[    0.172005] evm: security.capability
-[    0.176102] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
-[    0.180015] futex hash table entries: 512 (order: 3, 32768 bytes)
-[    0.184063] pinctrl core: initialized pinctrl subsystem
-[    0.188188] RTC time: 19:14:38, date: 03/20/19
-[    0.192262] NET: Registered protocol family 16
-[    0.196099] audit: initializing netlink subsys (disabled)
-[    0.200039] audit: type=2000 audit(1553109220.303:1): state=initialized audit_enabled=0 res=1
-[    0.400027] cpuidle: using governor ladder
-[    0.404014] cpuidle: using governor menu
-[    0.408055] ACPI: bus type PCI registered
-[    0.412005] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
-[    0.416111] PCI: Using configuration type 1 for base access
-[    0.424211] HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
-[    0.432087] ACPI: Added _OSI(Module Device)
-[    0.436011] ACPI: Added _OSI(Processor Device)
-[    0.440005] ACPI: Added _OSI(3.0 _SCP Extensions)
-[    0.444005] ACPI: Added _OSI(Processor Aggregator Device)
-[    0.448007] ACPI: Added _OSI(Linux-Dell-Video)
-[    0.452007] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
-[    0.456006] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
-[    0.464067] ACPI: Executed 1 blocks of module-level executable AML code
-[    0.473437] ACPI: Interpreter enabled
-[    0.476022] ACPI: (supports S0 S5)
-[    0.480005] ACPI: Using IOAPIC for interrupt routing
-[    0.488002] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
-[    0.492275] ACPI: Enabled 2 GPEs in block 00 to 07
-[    0.509541] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
-[    0.512014] acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI]
-[    0.516048] acpi PNP0A03:00: _OSC: not requesting OS control; OS requires [ExtendedConfig ASPM ClockPM MSI]
-[    0.520022] acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.
-[    0.524462] PCI host bridge to bus 0000:00
-[    0.528007] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
-[    0.532026] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
-[    0.536008] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
-[    0.540008] pci_bus 0000:00: root bus resource [mem 0x20000000-0xfdffffff window]
-[    0.544009] pci_bus 0000:00: root bus resource [bus 00-ff]
-[    0.554861] pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
-[    0.556007] pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
-[    0.560007] pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
-[    0.564006] pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
-[    0.582723] pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
-[    0.584020] pci 0000:00:07.0: quirk: [io  0x4100-0x410f] claimed by PIIX4 SMB
-[    0.596205] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
-[    0.600412] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
-[    0.604174] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
-[    0.608251] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
-[    0.612334] SCSI subsystem initialized
-[    0.616044] pci 0000:00:02.0: vgaarb: setting as boot VGA device
-[    0.620000] pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
-[    0.620007] pci 0000:00:02.0: vgaarb: bridge control possible
-[    0.624005] vgaarb: loaded
-[    0.628036] ACPI: bus type USB registered
-[    0.632029] usbcore: registered new interface driver usbfs
-[    0.636022] usbcore: registered new interface driver hub
-[    0.640055] usbcore: registered new device driver usb
-[    0.648033] EDAC MC: Ver: 3.0.0
-[    0.652438] PCI: Using ACPI for IRQ routing
-[    0.656296] NetLabel: Initializing
-[    0.660004] NetLabel:  domain hash size = 128
-[    0.664004] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
-[    0.668024] NetLabel:  unlabeled traffic allowed by default
-[    0.672067] clocksource: Switched to clocksource kvm-clock
-[   0.99] S:isk uos uo6.0  1.327]FS Dqu-cch hshabe trs:51 (de0,09byes
-
-[   2.48] pAor AppArr lestm abd   30049] np P APIin
-  3.967]np PnP API fun3 eves
-
-[  3393] clockoue:cpipmmak:0xff mx_cls:0xffffmaid_n 25702 ns  5.47] T:egted otocolfamiy 
-[   5.03] P taisd shabe trs:09 (de 3 32768byes
-[   .8373]CPinha tlentes40 (de 46553 byes
-[  7611]CPHa tables onigre(eabsh 496in 46)
-[   8.6429UD hh blenie 26 (oer1,81 bes
-[  9463]DP-Le shab eri: 6 rd:  892byes
-[ 10689]ET: Regitereprtoolamly
-  0.94660]ci00000. Lmingirt I/I trsfs  1.301]ci 000:0:00:ctatngSADMha wkaound
-[ 12339]ci000002.0: dedeceitshowd M  [m x000000x0dff
-
-[ 13561] Uacngniras.
-[   14.728473] Freeing initrd memory: 18980K
-[   14.824165] platform rtc_cmos: registered platform RTC device (no PNP device found)
-[   14.825888] Scanning for low memory corruption every 60 seconds
-[   14.827908] Initialise system trusted keyrings
-[   14.833515] Key type blacklist registered
-[   14.837480] workingset: timestamp_bits=36 max_order=17 bucket_order=0
-[   14.840208] zbud: loaded
-[   14.842530] squashfs: version 4.0 (2009/01/31) Phillip Lougher
-[   14.843964] fuse init (API version 7.26)
-[   14.941424] Key type asymmetric registered
-[   15.034321] Asymmetric key parser 'x509' registered
-[   15.077086] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 246)
-[   15.249133] io scheduler noop registered
-[   15.291507] io scheduler deadline registered
-[   15.308311] io scheduler cfq registered (default)
-[   15.329737] ACPI: AC Adapter [AC] (on-line)
-[   15.435298] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
-[   15.613645] ACPI: Power Button [PWRF]
-[   15.752826] input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
-[   15.945255] tsc: Refined TSC clocksource calibration: 2591.328 MHz
-[   16.059151] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x255a3c0bbfa, max_idle_ns: 440795298610 ns
-[   16.059262] ACPI: Sleep Button [SLPF]
-[   16.060402] ACPI: Battery Slot [BAT0] (battery present)
-[   16.125925] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
-[   16.176831] 00:02: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A
-[   16.219588] Linux agpgart interface v0.103
-[  1.295] oo mdue oaded
-
-[   16.6560] cs hst: ata_pix
-[  .906] sios1:ata_piix
-
-[   17.306115] ata1: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xd000 irq 14
-[   17.386943] ata2: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xd008 irq 15
-[   17.537026] libphy: Fixed MDIO Bus: probed
-[   17.633153] tun: Universal TUN/TAP device driver, 1.6
-[   17.733457] PPP generic driver version 2.4.2
-[   17.832575] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
-[   17.949316] ehci-pci: EHCI PCI platform driver
-[   18.018884] ehci-platform: EHCI generic platform driver
-[   18.076186] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
-[   8.9724] ohi-i:OHI CIplfom drier
-[  18.62573ohi-ator: HC gerc ator dver
-[  19.2563 ui_cd U Uvesal Hot onrole Iteac div
-[  20.71
+[   0.0000 Linuxvesion4.5.0--genic (uild@lgw01-amd64-038) (gcc verson 73. (Ubntu 73.0-1ubuntu)) #9-Ubntu MP Wd eb 609:33:7 TC 201(Ubunt 4.10-4649-gneic 415.18)
+[    000000]Commnd lne: OO_IMAE=/bot/vlinu-4.1.046enericrootLABEcloumg-rotfsro cnsol=ty1 cnsol=tyS0
+[   0.00000 KERELsupprtedcpus
+[   0.00000]  Inte GnuinIntel
+[    0.0000]   AM AutentiMD
+   0.0000]  Cetar CetarrHaul
+    .0000] x6/fp: Suportng XAVE fetu 0x01: '87 flotingpont rgistrs'[   0.00000]x86/u: Supporting XSAVE feature 0x002: 'SSE registers'
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+[    0.000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+[    0.000000] x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'standard' format.
+[    0.000000] e820: BIOS-provided physical RAM map:
+[    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+[    0.000000] BIOS-e820: [mem 0x000000000009fc00-0x0000000000009fff]reseved
+    000000]BIOS-e820:[mem0x000000000f000-0x00000000fffff]reservd
+[   0.00000] BIOS-e820: [mem0x000000000100000-0x00000000ffeffff usabl
+[    0.000000] BIS-e820: mem x00000001ff00000x0000001ffffff]ACPIata
+[   0.00000 BIOS-e820: [me 0000000c000-0x0000000fe00ff] eserd
+[   000000] BOSe820 [mm 0x000000fee00000x000000fee0ff] esrved
+    .00000 BIOS-e80: [em0x0000000ff0000x0000000ffffff] eserve
+[   0.00000]NX (xecuteDisale) protecti: aciv
+   0.00000 SMBOS 2.5presen.
+[   0.00000]DMI:inotekmbH VitualoxVirtalBo, BIOS irtualBox 2/012006
+    0.0000 Hyprvisr eteced: KM
+[   0.0000] 20: st_pn = x1ff0 ax_ach_pfn= 0x00000000
+[    0.000000] MRR: isable
+[    0.00000]x86/AT: TRRsdiable, skppin PT initaliztion to.
+    .00000] CU MTRs al blnk - virtualizd systm.
+    0.0000 x86/PT: Cnfigratin [07]: B  W  UC UC B  WT  U- UC 
+[   0.0000] fod SM MP-table t [mem0x009fff0-0x009fff mapedat [     (ptva)]
+    00000] Scaning areas forlow emry crrupion
+[   0.0000]AMDI: [mm x1dc000-x1ef4fff
+[   0.00000] AI: Eary tale cheksumveriicaton dable
+[   .00000 ACP: RSP 0x00000000E000 000024 v02 VBOX  )
+[    0.0000] ACI: XDT 0x0000001FF0030 000 (v0 VBO   VOXXST 0000001 L  00006)
+[   .000000 ACI: FAC 0x0000001FF00F0000F4(v4 BOX  VBOXFAP 000001 AL  000001)
+   0.00000 API: SDT x00000001FFF04700021FF v0 VOX  VBXBIOS 000002 ITL2010528)
+[    0.000000 ACPI: FAC 0x00000001FFF0200 000040
+[    0.000000] ACPI: FACS 0x00000001FFF020 000040
+[   0.000000] ACPI AIC 00000001FFF240 0005 (v02 BOX  VBOAPIC000001ASL  000061)
+    .000] ACI: SSD 0x00000000FFF02A 000CC (01 VOX  VBOXPUT 000002 INL 200052)
+[    0.00000] o NUA cofiguatio found
+[  0.00000 Fakin a nde at mem x00000000000000-00000001fefff]
+[   0.00000] NODEDATA) alloatd [mem0x1fc500-0x1fefff]
+[    000000] km-lok: cu 0,msr :1ff4001, rimary cpu lock
+[  0.00000]kvm-lockUsin msr4b56d01 nd 4564d0
+[   0.0000] vm-clock: using sched offsetof 343553984cycles
+[    0.00000] clocksource: kvm-clock: mask: 0xfffffffffffffff mx_cyles: 01cd4e4dfb, mx_dle_s: 8159059148 ns
+[  0.00000]Zone rnges
+[   0.00000]  DMA    [mm 0x000000000100-0000000000fffff
+[   0.0000   DA32   [mem0x000000100000-0x0000001effff]
+[   0.0000   Nrmal  emty
+[  0.0000]  Deice  epty[    00000] Moble ne sart r eachnode
+[   0.0000] Erly memor nod ranes
+    .0000]   ode   0: [mem0x0000000000100-0x0000000009eff]
+[   0.000000]  noe   : [mem0x0000000010000-0x0000001ffeffff
+[   0.00000] Reerve butunavalable 114 pags
+[   0.00000]Initmem setup ode  [me 0x0000000000100-000000001feffff]
+[    0.000000 ACPI:PM-Timr IO Port: 0x4008
+[    0.00000] IOAIC[0: apc_id2, vrsio 32,addrss 0xfc00000, SI 0-23
+[    0.00000] ACPI INT_SC_OV (us 0bus_ir 0 gobalirq 2 fl dfl
+[   0.00000] CPI:INT_RC_OR (bs 0 us_irq 9 globl_irq 9 ow lvel)
+[   0.00000] Using ACPI (MADT) forSMP confguration iformaton
+    .00000] smpbot: Alowin 2 CPU, 0 otplugCPUs
+[    0.00000] PM: egist
