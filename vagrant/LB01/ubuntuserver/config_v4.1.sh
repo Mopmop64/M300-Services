@@ -31,7 +31,7 @@ sudo apt-get -y install mariadb-server mariadb-client
 
   # mySQL Datenbanken erstellen
 # Bei mySQL anmelden, mit dem davor gesetzten passwort.
-mysql -uroot -ppassword
+mysql -uroot -ppassword <<%EOF%
 # Neue icinga2 Database erstellen und Änderungen dann überschreiben.
          CREATE DATABASE icinga2_db;
          GRANT ALL PRIVILEGES on icinga2_db.* to 'icinga2_user'@'localhost' identified by '12345678';
@@ -40,7 +40,7 @@ mysql -uroot -ppassword
         CREATE DATABASE icingaweb2_db;
         GRANT ALL PRIVILEGES on icingaweb2_db.* to 'icingaweb2_user'@'localhost' identified by '12345678';
         FLUSH PRIVILEGES;
-        quit
+%EOF%
 
   # Icinga2 und Icinga2web installieren
 # Den Repository Key für das Icinga2 Repository aus den Internet hinzufügen.
@@ -65,17 +65,17 @@ sudo icinga2 feature enable command ido-mysql
 # Danach den icinga2 Service einmal neu starten.
 sudo systemctl restart icinga2
 
-# In der icinga2_db werden Einträge generieren
-mysql -u root icinga2_db -p password < /usr/share/icinga2-ido-mysql/schema/mysql.sql
+# In der icinga2_db Datenbank werden Einträge generieren
+mysql -uroot icinga2_db -ppassword < /usr/share/icinga2-ido-mysql/schema/mysql.sql
 
 # Das im share folder abgelegte ido-mysql file kopieren. Da essenzielle Änderungen vorgenommen werden müssen
-cp /etc/share/ido-mysql.conf /etc/icinga2/features-enable/ido-mysql.conf -f
+#cp -f /etc/share/ido-mysql.conf /etc/icinga2/features-enable/ido-mysql.conf
 
 # Den Icinga2 Service erneut neu starten
-sudo systemctl restart icinga2
+#sudo systemctl restart icinga2
 
 # Ganz zum Schluss wird noch ein Token erstellt, welches benötigt wird um das Webgui zu initialisieren.
-sudo icingacli setup token create
+#sudo icingacli setup token create
 
 
   # Aufgrund eines bekannten Fehlers mit icingaweb2 und PHP 7.2 muss auf PHP 7.1 gedowngraded werden.
