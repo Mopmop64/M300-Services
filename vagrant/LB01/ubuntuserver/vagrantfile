@@ -22,5 +22,5 @@ end
   config.vm.hostname = "icinga2server"
 
    # Angabe Speicherort des Files indem die Auszuführenden Befehle sind.
-   config.vm.provision :shell, path: "config_v3.2.sh"
+   config.vm.provision :shell, path: "config_v4.0.sh"
 end

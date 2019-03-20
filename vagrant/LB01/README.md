@@ -9,7 +9,7 @@ Um dies zu bewerkstelligen, sind ein paar Programme nötig. Es wurden vagrant in
 Um eine VM via Vagrant zu starten ist ein Vagrant File nötig, indem alle Konfigurationen angegeben sind. Dieses sogenannte vagrantfile ist hier zu finden. --> [vagrantfile](ubuntuserver/vagrantfile)
 
 ## Config.sh
-Da dies nur die Installation der VM beinhaltet müssen danach noch alle Befehle definiert werden, die die VM nach der Installation ausführen soll. Dazu wurde im vagrantfile das config.sh File angegeben, welches diesen Inhalt beherbergt. Dies finden sie hier. --> [config.sh](ubuntuserver/config_v3.2.sh).
+Da dies nur die Installation der VM beinhaltet müssen danach noch alle Befehle definiert werden, die die VM nach der Installation ausführen soll. Dazu wurde im vagrantfile das config.sh File angegeben, welches diesen Inhalt beherbergt. Dies finden sie hier. --> [config.sh](ubuntuserver/config_v4.0.sh).
 
 
 ## Sharefolder
@@ -22,3 +22,6 @@ Ein Sharedfolder kann mit folgender Linie im vagrantfile definiert werden.
 Das ido-mysql.conf File. In diesem File werden die Angaben für die mySQL Datenbank icinga2_db gemacht, die für die Ablage der Daten verantwortlich ist.
 
 ![ido-mysql](images/ido-mysql.PNG)
+
+## Backups und Realeasversionen
+Ich habe meine grösseren Änderungen stehts in neuen Versionen festgehalten. Diese sind im Backup ordner zu finden. Neben den verschiedenen Versionen wurden hier auch alle debug files gelagert, welche benutzt wurden um einzelne Fehlerquellen zu finden. Den Backupordner finden sie hier. --> [Backups](Backups/)
