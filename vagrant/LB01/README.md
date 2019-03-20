@@ -25,3 +25,6 @@ Das ido-mysql.conf File. In diesem File werden die Angaben für die mySQL Datenb
 
 ## Backups und Versionierung
 Ich habe meine grösseren Änderungen stehts in neuen Versionen festgehalten. Diese sind im Backup ordner zu finden. Neben den verschiedenen Versionen wurden hier auch alle debug files gelagert, welche benutzt wurden um einzelne Fehlerquellen zu finden. Den Backupordner finden sie hier. --> [Backups](Backups/)
+
+## debconf
+Ein wichtiger Teil bei der Automatisierung der Bereitstellung von Servicen ist die Installation deren Pakete. Damit alle EInstellung korrekt sind, können diese via debconf Befehl vor der Installation schon bestätigt werden, damit diese bei der Installation nicht mehr gefragt werden und manuell keine Angabe mehr gemacht werden müssen. Die genauen Angaben sind hier zu finden. --> [debcnf](debconf/)
