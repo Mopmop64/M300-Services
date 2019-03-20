@@ -57,7 +57,7 @@ sudo debconf-set-selections <<< 'icinga2-ido-mysql/dbconfig-install false'
 
 # Alle benötigten Icinga2 Pakete installieren.
 # Dazu gehören der Service Icinga2, das Webgui Icingaweb2 und die mySQL Tools icinga2-ido-mysql.
-sudo apt-get -y install icinga2 icingaweb2 icinga2-ido-mysql
+#sudo apt-get -y install icinga2 icingaweb2 icinga2-ido-mysql
 
 # Nun müssen die ido-mysql features noch aktiviert werden.
 #sudo icinga2 feature enable command ido-mysql
