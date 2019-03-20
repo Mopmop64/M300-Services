@@ -60,22 +60,22 @@ sudo debconf-set-selections <<< 'icinga2-ido-mysql icinga2-ido-mysql/dbconfig-in
 sudo apt-get -y install icinga2 icingaweb2 icinga2-ido-mysql
 
 # Nun müssen die ido-mysql features noch aktiviert werden.
-#sudo icinga2 feature enable command ido-mysql
+sudo icinga2 feature enable command ido-mysql
 
 # Danach den icinga2 Service einmal neu starten.
-#sudo systemctl restart icinga2
+sudo systemctl restart icinga2
 
 # In der icinga2_db werden Einträge generieren
-#mysql -u root icinga2_db -p password < /usr/share/icinga2-ido-mysql/schema/mysql.sql
+mysql -u root icinga2_db -p password < /usr/share/icinga2-ido-mysql/schema/mysql.sql
 
 # Das im share folder abgelegte ido-mysql file kopieren. Da essenzielle Änderungen vorgenommen werden müssen
-#cp /etc/share/ido-mysql.conf /etc/icinga2/features-enable/ido-mysql.conf -f
+cp /etc/share/ido-mysql.conf /etc/icinga2/features-enable/ido-mysql.conf -f
 
 # Den Icinga2 Service erneut neu starten
-#sudo systemctl restart icinga2
+sudo systemctl restart icinga2
 
 # Ganz zum Schluss wird noch ein Token erstellt, welches benötigt wird um das Webgui zu initialisieren.
-#sudo icingacli setup token create
+sudo icingacli setup token create
 
 
   # Aufgrund eines bekannten Fehlers mit icingaweb2 und PHP 7.2 muss auf PHP 7.1 gedowngraded werden.

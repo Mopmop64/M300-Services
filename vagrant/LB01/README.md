@@ -9,7 +9,7 @@ Um dies zu bewerkstelligen, sind ein paar Programme nötig. Es wurden vagrant in
 Um eine VM via Vagrant zu starten ist ein Vagrant File nötig, indem alle Konfigurationen angegeben sind. Dieses sogenannte vagrantfile ist hier zu finden. --> [vagrantfile](ubuntuserver/vagrantfile)
 
 ## Config.sh
-Da dies nur die Installation der VM beinhaltet müssen danach noch alle Befehle definiert werden, die die VM nach der Installation ausführen soll. Dazu wurde im vagrantfile das config.sh File angegeben, welches diesen Inhalt beherbergt. Dies finden sie hier. --> [config.sh](ubuntuserver/config_v4.0.sh).
+Da dies nur die Installation der VM beinhaltet müssen danach noch alle Befehle definiert werden, die die VM nach der Installation ausführen soll. Dazu wurde im vagrantfile das config.sh File angegeben, welches diesen Inhalt beherbergt. Dies finden sie hier. --> [config.sh](ubuntuserver/config_v4.1.sh).
 
 
 ## Sharefolder
