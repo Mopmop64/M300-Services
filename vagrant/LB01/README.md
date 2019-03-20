@@ -23,5 +23,5 @@ Das ido-mysql.conf File. In diesem File werden die Angaben für die mySQL Datenb
 
 ![ido-mysql](images/ido-mysql.PNG)
 
-## Backups und Realeasversionen
+## Backups und Versionierung
 Ich habe meine grösseren Änderungen stehts in neuen Versionen festgehalten. Diese sind im Backup ordner zu finden. Neben den verschiedenen Versionen wurden hier auch alle debug files gelagert, welche benutzt wurden um einzelne Fehlerquellen zu finden. Den Backupordner finden sie hier. --> [Backups](Backups/)
