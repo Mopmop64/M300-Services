@@ -36,7 +36,7 @@ Das ido-mysql.conf File. In diesem File werden die Angaben für die mySQL Datenb
 ![ido-mysql](images/ido-mysql.PNG)
 
 ## Icinga2
-Als meinen Service habe ich mich für Icinga2 und dessen Anhang Icingaweb2 entschieden. Dabei handelt es sich um ein kostenfreies Monitoringtool, mit welchem Services und generelle Statusabfragen der Hardware von Servern und Workstations gemscht werden können. Die Anleitung und vertiefte Erklärung ist hier zu finden. [Icinga2](icinga2/)
+Als meinen Service habe ich mich für Icinga2 und dessen Anhang Icingaweb2 entschieden. Dabei handelt es sich um ein kostenfreies Monitoringtool, mit welchem Services und generelle Statusabfragen der Hardware von Servern und Workstations gemscht werden können. Die Anleitung und vertiefte Erklärung ist hier zu finden. --> [Icinga2](icinga2/)
 
 ## Backups und Versionierung
 Ich habe meine grösseren Änderungen stehts in neuen Versionen festgehalten. Diese sind im Backup ordner zu finden. Neben den verschiedenen Versionen wurden hier auch alle debug files gelagert, welche benutzt wurden um einzelne Fehlerquellen zu finden. Den Backupordner finden sie hier. --> [Backups](backups/)
