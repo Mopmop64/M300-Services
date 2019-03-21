@@ -41,6 +41,6 @@ Um die Arbeit die geleistet Arbeit werten zu können, müssen Testfälle erstell
 | VM wird via Vagrant vollständig aufgesetzt.               | VM wird erfolgreich aufgesetzt.    | VM wird erfolgreich aufgesetzt.    |
 | Im Order der VM kann mit "vagrant ssh" verbunden werden.  | SSH verbindung wird geöffnet.      | SSH verbindung wird geöffnet.      |
 | VM ist via SSH über PuTTY auf localhost erreichbar.       | Verbindung kann aufgebaut werden.  | Verbindung kann aufgebaut werden.  |
-| Das Icingaweb2 Webgui ist im Browser erreichbar.          | Webgui ist erreichbar.             | Webgui ist erreichbar.             |
+| Das Icingaweb2 Webgui ist im Browser über http://127.0.0.1:8080/icingaweb2 erreichbar.          | Webgui ist erreichbar.             | Webgui ist erreichbar.             |
 | Login in das Webgui ist erfolgreich.                      | Login erfolgreich.                 | Login erfolgreich.                 |
 | Services des Hosts werden angezeigt.                      | Services werden angezeigt.         | Services werden angezeigt.         |
