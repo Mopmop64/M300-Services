@@ -65,6 +65,6 @@ Das Ganze Projekt war für mich zum Teil sehr Nervenaufreibend, aber im grosssen
 
 Ansonsten ist das Projekt sehr gut und ohne nennenswerte Probleme vonstatten gegangen. Es war einfach sehr zeitintensiv, da ich mich für einen sehr komplexen Service entschieden habe. Mir ist nach Vollendung meines Meisterstückes aufgefallen, dass ich nicht wirklich immer mit der effektivsten Methode gearbeitet habe, nichts desto trotz ist der Erfolg meinem Projekt nicht abzuschlagen.
 
-Grüsse und en schöne Sunntig 
+Grüess und en schöne Sunntig 
 
 Eric yaa Boii
