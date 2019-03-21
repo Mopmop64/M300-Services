@@ -77,9 +77,6 @@ sudo cp /etc/share/ido-mysql.conf /etc/icinga2/features-enabled/ido-mysql.conf
 # Den Icinga2 Service erneut neu starten
 sudo systemctl restart icinga2
 
-# Ganz zum Schluss wird noch ein Token erstellt, welches benötigt wird um das Webgui zu initialisieren.
-sudo icingacli setup token create
-
 
   # Aufgrund eines bekannten Fehlers mit icingaweb2 und PHP 7.2 muss auf PHP 7.1 gedowngraded werden.
 # Ein weiteres Repository hinzufügen
@@ -104,5 +101,8 @@ sudo a2enmod php7.1
 # apache2 Service neu starten
 sudo systemctl restart apache2
 
+
+# Ganz zum Schluss wird noch ein Token erstellt, welches benötigt wird um das Webgui zu initialisieren.
+sudo icingacli setup token create
 
 # end
