@@ -1,6 +1,6 @@
 # Icinga2
 
-# Inhalt
+## Inhalt
 - Icinga2 und Icingaweb2
 - Inizialisierung Webgui
 
