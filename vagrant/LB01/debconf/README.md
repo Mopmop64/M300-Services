@@ -1,5 +1,13 @@
 # debconf
 
+# Inhalt
+- Was ist debconf
+- AUfbau eines Befehls
+- Beispiele
+  - mySQL
+  - Icinga2
+-  Finden der debconf Namen
+
 ## Was ist debconf
 Wenn ein Paket istalliert wird fragt debconf nach allen Einstellungen für dieses Paket. Diese EInstellungen können via Command vor oder nach dem Installieren des Paketes angegeben werden. Falls nicht vor dem Installieren die Werte gesetzt werden, können während der Installation Fenster aufgehen, welche nach diesen Angaben fragen. Das Einfachste Beispiel ist hier die Frage nach einem Passwort.
 
