@@ -28,3 +28,6 @@ Ich habe meine grösseren Änderungen stehts in neuen Versionen festgehalten. Di
 
 ## debconf
 Ein wichtiger Teil bei der Automatisierung der Bereitstellung von Servicen ist die Installation deren Pakete. Damit alle EInstellung korrekt sind, können diese via debconf Befehl vor der Installation schon bestätigt werden, damit diese bei der Installation nicht mehr gefragt werden und manuell keine Angabe mehr gemacht werden müssen. Die genauen Angaben sind hier zu finden. --> [debconf](debconf/)
+
+## Security
+Bei den Security EInstellungen habe ich mich sehr simpel gehalten. Ich habe die Hostfilrewall aktiviert und den apache2 Service darauf erlaubt. Damit die Verbindung auf das Webgui weiterhin besteht.
