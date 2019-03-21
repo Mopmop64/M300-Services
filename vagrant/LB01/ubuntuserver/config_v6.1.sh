@@ -99,6 +99,14 @@ sudo a2enmod php7.1
 sudo systemctl restart apache2
 
 
+  #Security Einstellungen, Hostfirewall einschalten
+# Firewall eischalten
+sudo ufw enable
+
+# Apache erlauben
+sudo ufw allow 'Apache Full'
+
+
 # Ganz zum Schluss wird noch ein Token erstellt, welches benötigt wird um das Webgui zu initialisieren.
 sudo icingacli setup token create
 
