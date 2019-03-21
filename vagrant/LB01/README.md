@@ -63,4 +63,8 @@ Um die Arbeit die geleistet Arbeit werten zu können, müssen Testfälle erstell
 ## Reflexion
 Das Ganze Projekt war für mich zum Teil sehr Nervenaufreibend, aber im grosssen und ganzen sehr interessant, da ich viel neues Lernen konnte. Der grösste Problemfaktor war die debconf Einstellungen bei der Icinga2 Installation. Alleine um die zwei Befehle richtig zu Schreiben und funktionsfähig zu kriegen habe ich über 10 Stunden gebraucht. Aber fühlte mich dann umso besser als es endlich funktionierte. Als zweites kleines Problem bin ich bei PHP gestossen, als es einen Sessionfehler mit dem Webgui von Icingaweb2 gab. Dieser liess sich aber zum Glück ziemlich unkompliziert lösen, da ich ein falschen php.ini File aus dem Internet herunter geladen habe.
 
-Ansonsten ist das Projekt sehr gut und ohne nennenswerte Probleme vonstatten gegangen. Es war einfach sehr zeitintensiv, da ich mich für einen sehr komplexen Service entschieden habe.
+Ansonsten ist das Projekt sehr gut und ohne nennenswerte Probleme vonstatten gegangen. Es war einfach sehr zeitintensiv, da ich mich für einen sehr komplexen Service entschieden habe. Mir ist nach Vollendung meines Meisterstückes aufgefallen, dass ich nicht wirklich immer mit der effektivsten Methode gearbeitet habe, nichts desto trotz ist der Erfolg meinem Projekt nicht abzuschlagen.
+
+Grüsse und en schöne Sunntig 
+
+Eric yaa Boii
