@@ -31,3 +31,16 @@ Ein wichtiger Teil bei der Automatisierung der Bereitstellung von Servicen ist d
 
 ## Security
 Bei den Security EInstellungen habe ich mich sehr simpel gehalten. Ich habe die Hostfilrewall aktiviert und den apache2 Service darauf erlaubt. Damit die Verbindung auf das Webgui weiterhin besteht.
+
+## Testfälle
+
+Um die Arbeit die geleistet Arbeit werten zu können, müssen Testfälle erstellt und Protokolliert werden. Diese sind hier aufgeführt.
+
+| Testfall                                                  | Soll                               | Ist                                |
+| --------------------------------------------------------- | ---------------------------------- | ---------------------------------- |
+| VM wird via Vagrant vollständig aufgesetzt.               | VM wird erfolgreich aufgesetzt.    | VM wird erfolgreich aufgesetzt.    |
+| Im Order der VM kann mit "vagrant ssh" verbunden werden.  | SSH verbindung wird geöffnet.      | SSH verbindung wird geöffnet.      |
+| VM ist via SSH über PuTTY auf localhost erreichbar.       | Verbindung kann aufgebaut werden.  | Verbindung kann aufgebaut werden.  |
+| Das Icingaweb2 Webgui ist im Browser erreichbar.          | Webgui ist erreichbar.             | Webgui ist erreichbar.             |
+| Login in das Webgui ist erfolgreich.                      | Login erfolgreich.                 | Login erfolgreich.                 |
+| Services des Hosts werden angezeigt.                      | Services werden angezeigt.         | Services werden angezeigt.         |

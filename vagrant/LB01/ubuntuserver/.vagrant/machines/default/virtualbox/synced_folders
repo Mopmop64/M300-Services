@@ -1,1 +1,0 @@
-{"virtualbox":{"/etc/share":{"guestpath":"/etc/share","hostpath":"C:/Users/ericm/local_repo/M300-Services/vagrant/LB01/ubuntuserver/share","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Users/ericm/local_repo/M300-Services/vagrant/LB01/ubuntuserver","disabled":false,"__vagrantfile":true}}}
