@@ -9,6 +9,6 @@ Icinga ist ein opensource zur Server- und Workstationüberwachung. Dabei werden 
 
 ## Inizialisierung Webgui
 
-![icingaweb2_db](LB01/images/icingaweb2_db.PNG)
+![icingaweb2_db](M300-Services/vagrant/LB01/images/icingaweb2_db.PNG)
 
-![icinga2_db](LB01/images/icinga2_db.PNG)
+![icinga2_db](M300-Services/vagrant/LB01/images/icinga2_db.PNG)
