@@ -17,7 +17,39 @@ Im ersten Schritt nach dem Aufsetzten des Servers, und nachdem alle Updates durc
 
 ``sudo apt install apt-transport-https ca-certificates curl software-properties-common``
 
+Danach kann der Reposotory Key importiert werden.
 
+``curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -``
+
+Nun kann das Docker Repository hinzugefügt werden.
+
+``sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"``
+
+Das Repository updaten.
+
+``sudo apt update``
+
+Bestätigen das Docker wirklich über das richtige Repository installiert wird.
+
+``apt-cache policy docker-ce``
+
+Jetzt kann Docker endlich installiert werden.
+
+``sudo apt install docker-ce``
+
+Damit man die Docker Befehle nicht immer mit sudo ausführen muss kann man seinen eigenen Benutzer der Docker Gruppe hinzufügen.
+
+``sudo usermod -aG docker ${USER}``
+
+Damit die Änderungen übernommen werden, muss man sich entweder aus- und wieder einloggen, oder man Benutzt folgenden Befehl.
+
+``su - ${USER}``
+
+Bestätigen das der Benutzer wirklich in der Gruppe ist.
+
+``id -nG``
+
+Herzlichen Glückwunsch. Sie haben nun Docker erfolgreich installiert.
 
 ## Dockerfile
 
