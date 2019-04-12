@@ -34,7 +34,7 @@ Danach wurde der apache2 Webserver installiert.
 
 ``apt install apache2``
 
-Das File /etc/apaache2/apache2.conf bearbeiten. Es muss ledeglich eine Zeile am Ende des Files hinzugefügt werden ``ServerName IP_of_your_server``
+Das File /etc/apache2/apache2.conf bearbeiten. Es muss ledeglich eine Zeile am Ende des Files hinzugefügt werden ``ServerName IP_of_your_server``
 
 ``nano /etc/apache2/apache2.conf``
 
