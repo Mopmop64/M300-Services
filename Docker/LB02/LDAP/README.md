@@ -3,6 +3,7 @@
 # Inhalt
 - Was ist LDAP
 - LDAP Server mit Docker aufsetzten
+- Image
 
 ## Was ist LDAP
 LDAP steht für Lightweight Directory Access Protocoll. Es handelt sich dabei um ein Protokoll welches genutzt wird um Benutzer zu authentisieren und deren Berechtigungen zu autorisieren. In meiner LB02 habe ich mir es zur aufgabe gemacht einen solchen Dienst bereitzustellen. 
@@ -105,3 +106,21 @@ Nun müssen noch einmal der apache2 Service und der slpad Service neu gestartet 
 Mithilfe der Port weiterletung kann nun über die Hostadresse auf das LDAP zugegriffen werden.
 
 http://host_IP:8080/phpldapadmin
+
+
+## Image
+Damit ich immer wieder den LDAP Server bereitstellen kann, habe ich ihn als Image abgelegt. So kann ich immer wieder ein vollständig funktionierendes LDAP in Sekunden bereitstellen.
+
+Als erstes habe ich ein Image erstellt. 
+
+``docker commit ubuntu_ldap01``
+
+Danach muss die ID des neuen Images herausgefunden werden. Dies ist unter der normalen auflistung der Images gefunden werden.
+
+``docker images``
+
+Nun kann das Image mit einem Tag versehen werden, also quasi benannt werden.
+
+``docker tag [Image ID] ldap:v1.0``
+
+Das Image trägt nun den Namen ldap mit der Versionierung v1.0

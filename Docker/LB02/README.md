@@ -3,8 +3,8 @@
 # Inhalt
 - Einleitung
 - Docker
-- Dockerfile
-- More things
+- Create Image
+- Dockerfile & Composefile
 
 ## Einleitung
 Bei der LB02 bestand der Auftrag nun daraus einen Service über docker anzubieten. Dazu soll erneut ein Server aufgesetzt werden, darauf dann der Docker Deamon installiert werden. Dann soll ein Docker container erstellt werden, indem sich der Server befindet. Im Rahmer der zweiten Lernberurteilung habe ich mich entschieden einen LDAP Server mit einem PHPLDAPadmin Management Backend zur verfügung zu stellen. Dazu habe ich zuerst einen Ubuntu 16.04 LTS Server aufgesetzt, indem dann der Docker container bereitgestellt wird, über welchen mann dann den LDAP Server erreicht.
@@ -51,6 +51,10 @@ Bestätigen das der Benutzer wirklich in der Gruppe ist.
 
 Herzlichen Glückwunsch. Sie haben nun Docker erfolgreich installiert.
 
-## Dockerfile
+## Create Image
+``docker commit`` heisst der Befehl. Hiermit ist es möglich aus einem bestehenden Container ein Image zu kreiren. Dies kann nützlich sein wenn man weiss das man einen Container häufig löschen wird. Damit ist es möglich immer wieder an einen Bestimmten Stand am Arbeitsprozess zurückzukehren.
 
-## More things
+## Dockerfile & Composefile
+Aus Dockerfiles können Images gebaut werden, aus denen dann Containers gestartet werden können. Man gibt darin das Base Image an, sowie ähnlich wie beim Vagrantfile auch Befehle die nach dem Starten des Containers ausgefeührt werden sollen.
+
+In einem Composefile können ziemlich gleiche Sachen gemacht werden, man kann einfach mehrere Images und Container gleichzeiting starten.
